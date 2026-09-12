@@ -4,7 +4,7 @@ A portfolio project: a remote Minecraft server management tool powered by a .NET
 Requirements
 * Java 21 (required for modern Minecraft versions like Paper 1.21).
 
-* .NET 8.0 SDK (if building from source code).
+* .NET 10.0 SDK (if building from source code).
 
 ## Installation & Setup
 1. Clone the Repository
@@ -55,7 +55,7 @@ You can compile the application into a single executable that does not require .
 ```bash
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
 ```
-The resulting file will be located at: `bin/Release/net8.0/win-x64/publish/`.
+The resulting file will be located at: `bin/Release/net10.0/win-x64/publish/`.
 
 **Running from Source**
 To run the project in development mode, execute:
