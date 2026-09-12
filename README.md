@@ -70,6 +70,6 @@ The utility operates as a bridge between administrative commands and the operati
   * **RCON Protocol Integration**: Once the server finishes booting up and opens its local RCON socket, the bot establishes an authenticated TCP connection. It translates administrative actions into standard Minecraft console commands, securely handles responses, and closes the socket stream.
 
 ## Future Roadmap & Architecture Note
-You might notice a C++ native module and a placeholder for Python scripts in the repository. While the current version of MCSRemoteAccess runs fully on .NET 8.0, these components are intentionally included as a foundation for future scalability:
+You might notice a C++ native module and a placeholder for Python scripts in the repository. While the current version of MCSRemoteAccess runs fully on .NET 10.0, these components are intentionally included as a foundation for future scalability:
   * **C++ Module**: Designed for low-level OS-process monitoring and native system interactions via P/Invoke.
   * **Python Integration**: Planned for auxiliary tasks such as real-time Minecraft log parsing, error analysis, and metric processing.
