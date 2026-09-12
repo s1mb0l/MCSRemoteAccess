@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MCSRemoteAccess.Bot/MCSRemoteAccess.Bot.csproj" />
+  </Folder>
+</Solution>
