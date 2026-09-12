@@ -13,3 +13,18 @@ Download or clone the project using Git:
 git clone https://github.com/your_username/MCSRemoteAccess.git
 cd MCSRemoteAccess
 ```
+2. Configuration
+Create an `appsettings.json` file in the root directory based on the provided template `appsettings.example.json`.
+```json
+{
+  "MinecraftServer": {
+    "ServerDirectory": "/path/to/server/folder",
+    "JarName": "server.jar",
+    "JavaExecutable": "/path/to/jdk-21/bin/java",
+    "JvmArguments": "-Xmx2G -Xms1G",
+    "RconHost": "127.0.0.1",
+    "RconPort": 25575,
+    "RconPassword": "your_secure_password"
+  }
+}
+```
